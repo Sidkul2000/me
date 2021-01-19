@@ -22,12 +22,77 @@ export default class About extends Component {
             </div>
         </div>
         </section>
-        <section className="colorlib-about">
+
+
+        <section className="colorlib-about" data-section = "ourleaders">
         <div className="colorlib-narrow-content">
             <div className="row">
             <div className="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
-                <span className="heading-meta">What I do?</span>
-                <h2 className="colorlib-heading">Here are some of my expertise</h2>
+                <span className="heading-meta"><h1>OUR LEADERS</h1></span>
+                <h2 className="colorlib-heading"><i>Our teachers have helped us a lot!</i></h2>
+            </div>
+            </div>
+            <div className="row row-pt-md">
+            <div className="col-md-4 text-center animate-box">
+                <div className="services color-1">
+                {/*<span className="icon">
+                    <i className="icon-bulb" />
+                </span>*/}
+                <div className="desc">
+                    <h3>Prof S.S Dixit</h3>
+                    <p>Head of IT Department. </p>
+                </div>
+                </div>
+            </div>
+
+            <div className="col-md-4 text-center animate-box">
+                <div className="services color-3">
+                {/*<span className="icon">
+                    <i className="icon-phone3" />
+            </span>*/}
+                <div className="desc">
+                    <h3>Prof S.A Deshpande</h3>
+                    <p>Staff Coordinator.</p>
+                </div>
+                </div>
+            </div>
+            
+            <div className="col-md-4 text-center animate-box">
+                <div className="services color-5">
+                {/*<span className="icon">
+                    <i className="icon-data" />
+        </span>*/}
+                <div className="desc">
+                    <h3>Sushant Vernekar</h3>
+                    <p>General Secretary.</p>
+                </div>
+                </div>
+            </div>
+
+            <div className="col-md-4 text-center animate-box">
+                <div className="services color-4">
+                {/*<span className="icon">
+                    <i className="icon-layers2" />
+    </span>*/}
+                <div className="desc">
+                    <h3>Riya Parekh</h3>
+                    <p>Joint General Secretary.</p>
+                </div>
+                </div>
+            </div>
+            
+            
+        </div>
+        </div>
+        </section>
+
+
+        <section className="colorlib-about" data-section="ourteams">
+        <div className="colorlib-narrow-content">
+            <div className="row">
+            <div className="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
+                <span className="heading-meta"><h1>OUR TEAMS</h1></span>
+                <h2 className="colorlib-heading"><i>Here are the teams we have at ITSA!</i></h2>
             </div>
             </div>
             <div className="row row-pt-md">
@@ -37,53 +102,46 @@ export default class About extends Component {
                     <i className="icon-bulb" />
                 </span>
                 <div className="desc">
-                    <h3>Web Development </h3>
-                    <p>I have experience building websites and chrome extentions using JavaScript,React,HTML,CSS</p>
+                    <a href="https://github.com/"><h3>Team Web and Tech</h3></a>
+                    <p>Lorem ipsum pariatur consectetur laboris occaecat nulla aliqua irure ad deserunt duis. </p>
                 </div>
                 </div>
             </div>
+            <a href="https://github.com/">
             <div className="col-md-4 text-center animate-box">
                 <div className="services color-3">
                 <span className="icon">
                     <i className="icon-phone3" />
                 </span>
                 <div className="desc">
-                    <h3>Data Structures & Algorithms</h3>
-                    <p>As coming from the CS background, I have good grasp over fundamental concepts of DSA</p>
+                    <h3>Team Notification</h3>
+                    <p>Lorem ipsum pariatur consectetur laboris occaecat nulla aliqua irure ad deserunt duis.</p>
                 </div>
                 </div>
             </div>
+            </a>
             <div className="col-md-4 text-center animate-box">
                 <div className="services color-5">
                 <span className="icon">
                     <i className="icon-data" />
                 </span>
                 <div className="desc">
-                    <h3>Dev Ops</h3>
-                    <p>I am pursuing my internship with DevOps team at Juniper and working with tools like Jenkins, Docker, K8s</p>
+                    <h3>Team Finance</h3>
+                    <p>Lorem ipsum pariatur consectetur laboris occaecat nulla aliqua irure ad deserunt duis.</p>
                 </div>
                 </div>
             </div>
+
             
-            <div className="col-md-4 text-center animate-box">
-                <div className="services color-2">
-                <span className="icon">
-                    <i className="icon-data" />
-                </span>
-                <div className="desc">
-                    <h3>Dev Ops</h3>
-                    <p>Jenkins , Kubernetes , Docker </p>
-                </div>
-                </div>
-            </div>
+
             <div className="col-md-4 text-center animate-box">
                 <div className="services color-4">
                 <span className="icon">
                     <i className="icon-layers2" />
                 </span>
                 <div className="desc">
-                    <h3>Graphic Design</h3>
-                    <p>My friend knows .. P</p>
+                    <h3>Team Student Coordination and Printing</h3>
+                    <p>Lorem ipsum pariatur consectetur laboris occaecat nulla aliqua irure ad deserunt duis.</p>
                 </div>
                 </div>
             </div>
@@ -93,8 +151,8 @@ export default class About extends Component {
                     <i className="icon-phone3" />
                 </span>
                 <div className="desc">
-                    <h3>Digital Marketing</h3>
-                    <p>I use Instagram eight hours a day :) </p>
+                    <h3>Team Event Management and Production</h3>
+                    <p>Lorem ipsum pariatur consectetur laboris occaecat nulla aliqua irure ad deserunt duis.</p>
                 </div>
                 </div>
             </div>

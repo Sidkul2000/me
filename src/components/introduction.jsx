@@ -15,7 +15,7 @@ export default class Introduction extends Component {
                       <div className="slider-text-inner js-fullheight">
                         <div className="desc">
                           <h1>PVG COET'S<br/><br/> Information Technology Students Association!</h1>
-                          <p><a className="btn btn-primary btn-learn" href="https://docs.google.com/document/d/15coSa2rnZcdywihM-pWTvoGqE65JAkxQAh6JDBNrF2Q/edit?usp=sharing" target="_blank" rel="noopener noreferrer">View Events<i className="icon-download4" /></a></p>
+                          <p><a className="btn btn-primary btn-learn" href="https://github.com/" target="_blank" rel="noopener noreferrer">View Events<i className="icon-download4" /></a></p>
                         </div>
                       </div>
                     </div>
@@ -30,7 +30,7 @@ export default class Introduction extends Component {
                       <div className="slider-text-inner">
                         <div className="desc">
                           <h1>#ExploreToInspire</h1>
-                          <p><a className="btn btn-primary btn-learn" href="https://github.com/dbarochiya" target="_blank" rel="noopener noreferrer">View Teams <i className="icon-briefcase3" /></a></p>
+                          <p><a className="btn btn-primary btn-learn" href="https://github.com/" target="_blank" rel="noopener noreferrer">View Teams <i className="icon-briefcase3" /></a></p>
                         </div>
                       </div>
                     </div>
@@ -45,7 +45,7 @@ export default class Introduction extends Component {
                       <div className="slider-text-inner">
                         <div className="desc">
                           <h1>Contact <br/>Us </h1>
-                          <p><a className="btn btn-primary btn-learn" href="https://dhruvbarochiya.me/" target="_blank" rel="noopener noreferrer">Email id<i className="icon-book" /></a></p>
+                          <p><a className="btn btn-primary btn-learn" href="https://github.com/" target="_blank" rel="noopener noreferrer">Email id<i className="icon-book" /></a></p>
                         </div>
                       </div>
                     </div>
