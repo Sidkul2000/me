@@ -11,10 +11,10 @@ export default class About extends Component {
                 <div className="row row-bottom-padded-sm animate-box" data-animate-effect="fadeInLeft">
                 <div className="col-md-12">
                     <div className="about-desc">
-                    <span className="heading-meta">About Us</span>
-                    <h2 className="colorlib-heading">Who Am I?</h2>
-                    <p>I am a computer grad student from DAIICT-Gandhinagar with ICT as my major.I love exploring new technologies and often amazed by the progress we as a human species have mad so far in the recent years (apart from the headphone-jack part!!)</p>
-                    <p>I have started reflecting my ideas and thougths through the medium of words recently so spelling and grammer mistaks are very often.You can write me back if you spot any and don't want to live anymore :P </p>
+                    <span className="heading-meta"><h1>About Us</h1></span>
+                    <h2 className="colorlib-heading"><i>What is ITSA?</i></h2>
+                    <p>ITSA is an association formed by the undergrad of Information Technology Department of PVG's COET.</p>
+                    <p>ITSA gives the students a platform to share their skills with others and learn new technologies. It draws ideas out of students and helps those turn into reality.</p>
                     </div>
                 </div>
                 </div>
@@ -64,7 +64,7 @@ export default class About extends Component {
                 </div>
                 </div>
             </div>
-            {/*
+            
             <div className="col-md-4 text-center animate-box">
                 <div className="services color-2">
                 <span className="icon">
@@ -98,7 +98,7 @@ export default class About extends Component {
                 </div>
                 </div>
             </div>
-            */}
+            
             </div>
         </div>
         </section>
